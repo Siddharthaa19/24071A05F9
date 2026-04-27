@@ -1,0 +1,55 @@
+:root {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #143d76;
+  background: #eaf2ff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: linear-gradient(180deg, #f4f8ff 0%, #e7f0ff 100%);
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 6px;
+  font-size: 32px;
+  color: #153a73;
+}
+
+h2 {
+  margin-bottom: 8px;
+  color: #1a4e9a;
+  font-size: 24px;
+}
+
+h3 {
+  color: #17488d;
+  font-size: 18px;
+}
+
+#root {
+  min-height: 100vh;
+}
